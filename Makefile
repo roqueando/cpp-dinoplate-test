@@ -1,4 +1,4 @@
-TARGET = app_name
+TARGET = cpp_dinoplate_test
 BUILDDIR = build/debug
 
 all: build run

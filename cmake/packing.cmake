@@ -6,7 +6,7 @@ set(CPACK_PACKAGE_NAME ${PROJECT_NAME}
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Powerful statistical application"
     CACHE STRING "Package description for the package metadata"
 )
-set(CPACK_PACKAGE_VENDOR "author_name")
+set(CPACK_PACKAGE_VENDOR "roqueando")
 
 set(CPACK_VERBATIM_VARIABLES YES)
 

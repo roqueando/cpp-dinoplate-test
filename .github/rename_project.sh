@@ -16,12 +16,12 @@ echo "Description: $description";
 
 echo "Renaming project..."
 
-original_author="author_name"
-original_name="app_name"
-original_upper="APP_NAME"
+original_author="roqueando"
+original_name="cpp_dinoplate_test"
+original_upper="CPP_DINOPLATE_TEST"
 upper_name=${name^^}
-original_urlname="project_urlname"
-original_description="project_description"
+original_urlname="cpp-dinoplate-test"
+original_description="Awesome cpp_dinoplate_test created by roqueando"
 description_name=${original_description^^}
 # for filename in $(find . -name "*.*") 
 for filename in $(git ls-files) 

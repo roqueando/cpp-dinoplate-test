@@ -6,10 +6,10 @@ file(GLOB SOURCE_LIST
   "${PROJECT_SOURCE_DIR}/src/**/*.cpp"
 )
 
-add_library(${APP_NAME_LIBRARY_NAME} ${SOURCE_LIST} ${HEADER_LIST})
+add_library(${CPP_DINOPLATE_TEST_LIBRARY_NAME} ${SOURCE_LIST} ${HEADER_LIST})
 
 
-target_link_libraries (${APP_NAME_LIBRARY_NAME} PUBLIC leaf)
-target_include_directories(${APP_NAME_LIBRARY_NAME} PUBLIC ../include)
+target_link_libraries (${CPP_DINOPLATE_TEST_LIBRARY_NAME} PUBLIC leaf)
+target_include_directories(${CPP_DINOPLATE_TEST_LIBRARY_NAME} PUBLIC ../include)
 
-target_compile_features(${APP_NAME_LIBRARY_NAME} PRIVATE cxx_std_20)
+target_compile_features(${CPP_DINOPLATE_TEST_LIBRARY_NAME} PRIVATE cxx_std_20)

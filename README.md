@@ -1,4 +1,4 @@
-# app_name
+# cpp_dinoplate_test
 > A project for white label inferencial and descriptive statistics
 
 ### updates and improvements
@@ -13,20 +13,20 @@ before start, verify if you have the following things:
 
 - you have installed the most recent version of C++ (you can install it with [GCC](https://gcc.gnu.org/) or [Clang](https://clang.llvm.org/)) in your machine
 
-## 🚀 installing app_name
+## 🚀 installing cpp_dinoplate_test
 
-For install `app_name` first you need:
+For install `cpp_dinoplate_test` first you need:
 
 - clone repository
 ```sh
-$ git clone https://github.com/roqueando/app_name.git
+$ git clone https://github.com/roqueando/cpp_dinoplate_test.git
 ```
 - build application (can take a while because it's use shared UI libraries for your OS)
 ```sh
 $ make build
 ```
 
-## ☕using app_name
+## ☕using cpp_dinoplate_test
 
 - run application
 ```sh
